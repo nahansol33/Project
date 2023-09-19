@@ -1,0 +1,8 @@
+Label {
+    -fx-text-fill: yellow;
+}
+
+#currentPlayer, #currentPlayerScore, #currentPlayerLabel, #currentPlayerScoreLabel{
+    -fx-text-fill: rgb(125, 238, 255);
+}
+

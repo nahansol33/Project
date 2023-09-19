@@ -1,0 +1,4 @@
+.background{
+    -fx-background-image:url("../../images/John_WIck.jpeg");
+    -fx-background-size:cover;
+}

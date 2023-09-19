@@ -1,0 +1,12 @@
+admin,admin123,0
+Hansol,123,2000
+admin2,123,500
+om2,123,500
+hansol2,123,500
+hansol3,123,500
+om,123,1925
+hola,123,500
+someone,123,500
+john wick,dog,2650
+Chrion,friend,0
+dog,dog,1625

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import GUI.ScoreStageController?>
+
+
+<VBox spacing="10.0" stylesheets="@ScoreStageCSS.css" fx:id="vbox" prefWidth="1300.0" prefHeight="750.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ScoreStageController">
+    <padding><Insets top="5" right="0" bottom="10" left="0" /></padding>
+    <children>
+        <Label text="Top 3 Players"> <font><Font size="20.0" /></font></Label>
+        <HBox spacing="5.0">
+            <Label text="" fx:id="topPlayer"> <font><Font size="16.0" /></font></Label>
+            <Label fx:id="topPlayerScore" text="" > <font><Font size="16.0" /></font></Label>
+        </HBox>
+
+        <HBox spacing="5.0">
+            <Label fx:id="secondPlayerName" text="PlayerName" > <font><Font size="16.0" /></font></Label>
+            <Label fx:id="secondPlayerScore" text="High Score" > <font><Font size="16.0" /></font></Label>
+        </HBox>
+
+        <HBox spacing="5.0">
+            <Label fx:id="thirdPlayerName" text="PlayerName" > <font><Font size="16.0" /></font></Label>
+            <Label fx:id="thirdPlayerScore" text="High Score" > <font><Font size="16.0" /></font></Label>
+        </HBox>
+
+        <HBox spacing="5.0">
+            <padding><Insets top="50" right="0" bottom="10" left="0" /></padding>
+            <VBox>
+                <Label text="Current Player" fx:id="currentPlayerLabel"><font><Font size="16.0" /></font></Label>
+                <Label text="" fx:id="currentPlayer"><font><Font size="16.0" /></font></Label>
+            </VBox>
+            <VBox>
+                 <Label text="Your Score" fx:id="currentPlayerScoreLabel"><font><Font size="16.0" /></font></Label>    
+                <Label text="" fx:id="currentPlayerScore"><font><Font size="16.0" /></font></Label>
+            </VBox>    
+        </HBox>
+    </children>
+</VBox>
